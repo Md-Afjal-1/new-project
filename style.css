@@ -1,0 +1,301 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    max-height: 95vh;
+    padding: 100px;
+}
+
+.services-content, .services-cards{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.services-header{
+    min-width: 50%;
+    margin-top: 0;
+}
+.container1 img{
+    background-size: cover;
+    min-width: 100%;
+    max-height: 95vh;
+    position: sticky;
+
+}
+.content-text{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    color: white;
+}
+.h1-text{
+    color:rgb(255, 200, 0);
+}
+.services{
+    background: rgba(0, 0, 255, 0.863);
+    margin-top: 0
+}
+#arrow1{
+    transform: rotate(45deg);
+}
+
+.about{
+    display: flex;
+}
+.about-img{
+    padding: 20px;
+    
+}
+.about-header{
+    padding: 20px;
+}
+.about-img img{
+    height: 500px;
+}
+.us{
+    color:rgb(255, 200, 0);
+}
+.about-line{
+    border: 2px solid rgb(255, 200, 0);
+    width: 60px;
+}
+.services-header{
+    color: white;
+}
+.our-line{
+    border: 2px solid rgb(255, 200, 0);
+    width: 60px;
+
+}
+.services-para{
+    color: white;
+}
+.card-line1{
+    border: 2px solid rgba(0, 0, 255, 0.863);
+    width: 60px;
+}
+.card-line2{
+    border: 2px solid rgb(255, 255, 255);
+    width: 60px;
+}
+.card-line3{
+    border: 2px solid rgba(0, 0, 255, 0.863);
+    width: 60px;
+}
+.card-line4{
+    border: 2px solid rgba(255, 255, 255);
+    width: 60px;
+}
+.card-body2{
+    background:rgb(255, 200, 0);
+}
+.card-body4{
+    background: rgba(255, 200, 0);
+}
+.card-title{
+    padding-left: 15px;
+}
+#btn-arrow{
+    bottom: 70px;
+    left: 50rem;
+    color: rgb(6, 0, 0);
+}
+#btn-arrow{
+    bottom: 60px;
+    left: 50rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+.choose{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.choose-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.choose-content{
+    display: flex;
+}
+
+.choose-content .choose-header{
+    min-width: 50%;
+}
+
+.choose-content .choose-para{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.choose-cards .card{
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+}
+
+.choose-cards .card img{
+    max-width: 120px;
+}
+footer{
+    position: relative;
+    background-color: black;
+    min-height: 50vh;
+    padding: 40px;
+}
+
+.footer-container{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.socials img{
+    width: 20vh;
+}
+
+.socials h4{
+    font-weight: 200;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.socials i{
+    font-size: larger;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.link-lists ul li, .contact-links ul li, .testimonials ul li{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+
+.happy{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    margin: 5%;
+    padding: 5%;
+}
+
+.happy-slider{
+    display: flex;
+    overflow-x: scroll;
+    width: 470px;
+}
+
+.happy-slider::-webkit-scrollbar{
+    display: none;
+}
+
+.slider-img{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px;
+    padding: 10px;
+    flex: none;
+}
+
+.slider-img  img{
+    max-width: 15vh;
+    max-height: 15vh;
+    border-radius: 15vh;
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+}
+
+.slider-img  img{
+    filter: grayscale(0);
+}
+.left,.right{
+    cursor: pointer;
+    margin: 10px;
+    border: none;
+}
+
+.happy-header{
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.happy-content{
+    margin: 0 auto;
+}
+
+.happy-content i{
+    font-size: 10vh;
+    color:rgb(255, 200, 0);
+    margin-left:45%;
+}
+
+.happy-content p{
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.happy-content h2{
+    margin-left:40%;
+}
+
+.happy-content h4{
+    margin-left: 43%;
+    font-weight: 200;
+    margin-bottom: 5%;
+}
+
+.schedule{
+    min-height: 40vh;
+    padding: 5%;
+    min-width: 100%;
+}
+
+.schedule h1{
+    margin-left:33%;
+}
+
+.schedule-logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color:rgb(255, 200, 0);
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+.schedule-logo i{
+    font-size: 40px;
+    margin: 30px;
+    color: white;
+}
+
+.divider{
+    height: 2px;
+    min-width: 90%;
+    background-color: white;
+    margin: 50px auto ;
+    opacity: 0.5;
+}
+
+footer p {
+    margin-left: 40%;
+}
+
+ul{
+    list-style: none;
+}
+
+
